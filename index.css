@@ -1,0 +1,102 @@
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
+#hello{
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    z-index: 100;
+}
+#habit-heading{
+    text-align: center;
+}
+#habbit-container{
+    margin-top: 50px;
+    /* background-color: orange; */
+}
+.hbt-sub-container{
+    display: block;
+    width: 100%;
+}
+.hbt-sub-container>div{
+    display: inline-block;
+}
+.hbt-sub-container{
+    height: 30px;
+    font-size: 1.1rem;
+}
+#my-habit-btns>button{
+    margin-top: -5px;
+}
+#my-habit{
+    margin-right: 1%;
+    font-size: 24px;
+}
+#my-habit:hover{
+    color: crimson;
+}
+#my-habit-functionality{
+    float: right;
+} 
+a{
+    text-decoration: none;
+}
+.bi-archive-fill:hover{
+    color: brown !important;
+}
+.textcenter img { width: 100%;}
+.textcenter { position: relative; }
+.textcenter figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  color: blue;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+/* NewPage */
+#New-habit-section{
+    height: 90vh;
+    width: 100%;
+}
+.habitForm{
+    margin-top: 1%;
+}
+.hbt-input{
+    width: 75%;
+    
+}
+.hbt-label{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.submit-habit{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.mandatory{
+    color: red !important;
+}
+.User-link{
+    text-decoration: none;
+    margin-top: 5px;
+    margin-right: 20px;
+    color:#198754;
+}
+
+
+/* Modal */
+.modal-header{
+  border-bottom: none;
+}
+.modal-footer {
+  border-top: none;
+}
